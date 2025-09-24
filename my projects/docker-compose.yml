@@ -8,6 +8,8 @@ services:
   streamlit_app:
     build: ./st_project
     container_name: streamlit_web
+    ports:
+      - "8501:8501"
     networks:
       - gypys_sila
 
