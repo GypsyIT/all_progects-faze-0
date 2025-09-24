@@ -3,7 +3,7 @@ services:
     build: ./tg_bot
     container_name: telegram_bot
     networks:
-      - gypys_sila
+      - gypsy_sila
 
   streamlit_app:
     build: ./st_project
@@ -11,8 +11,8 @@ services:
     ports:
       - "8501:8501"
     networks:
-      - gypys_sila
+      - gypsy_sila
 
 networks:
-  gypys_sila:
+  gypsy_sila:
     driver: bridge
