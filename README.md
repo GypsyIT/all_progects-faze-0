@@ -1,1 +1,1 @@
-# all_progects-faze-0
+Мои выполненные 2 проекта с готовыми dockerfile, а так же docker-compose для их объединения в одну сеть
